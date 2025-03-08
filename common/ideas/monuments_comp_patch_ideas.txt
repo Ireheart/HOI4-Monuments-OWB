@@ -1,0 +1,29 @@
+ideas = {
+	hidden_ideas = {
+		triumphant_will = {
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = no
+			}
+			cancel_if_invalid = no
+
+			modifier = {
+			}
+		}
+
+		heinrich_himmler = {
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = no
+			}
+			cancel_if_invalid = no
+
+			modifier = {
+			}
+		}
+	}
+}

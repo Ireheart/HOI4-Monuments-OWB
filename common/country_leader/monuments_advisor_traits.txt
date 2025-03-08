@@ -1,0 +1,26 @@
+leader_traits = {
+	monument_trait_political_advisor_cost_small = {
+		random = no
+		KR_trade_laws_cost_factor = -0.1
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	monument_trait_political_advisor_cost_medium = {
+		random = no
+		KR_trade_laws_cost_factor = -0.15
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	monument_trait_political_advisor_cost_large = {
+		random = no
+		KR_trade_laws_cost_factor = -0.2
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

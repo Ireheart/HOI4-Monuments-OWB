@@ -1,0 +1,51 @@
+# usage:
+## monument_ideology_trigger_fascism = yes
+monument_ideology_trigger_fascism = {
+	has_government = national_populist
+}
+
+# usage:
+## monument_ideology_trigger_communism = yes
+monument_ideology_trigger_communism = {
+	has_government = totalist
+}
+
+# usage:
+## monument_ideology_trigger_democratic = yes
+monument_ideology_trigger_democratic = {
+	has_government = market_liberal
+}
+
+# usage:
+## monument_ideology_trigger_neutrality = yes
+monument_ideology_trigger_neutrality = {
+	has_government = authoritarian_democrat
+}
+
+# usage:
+## set_temp_variable = { ideology_support_value = 0.5 }
+## monument_ideology_support_trigger_fascism = yes
+monument_ideology_support_trigger_fascism = {
+	national_populist > ideology_support_value
+}
+
+# usage:
+## set_temp_variable = { ideology_support_value = 0.5 }
+## monument_ideology_support_trigger_communism = yes
+monument_ideology_support_trigger_communism = {
+	totalist > ideology_support_value
+}
+
+# usage:
+## set_temp_variable = { ideology_support_value = 0.5 }
+## monument_ideology_support_trigger_democratic = yes
+monument_ideology_support_trigger_democratic = {
+	market_liberal > ideology_support_value
+}
+
+# usage:
+## set_temp_variable = { ideology_support_value = 0.5 }
+## monument_ideology_support_trigger_neutrality = yes
+monument_ideology_support_trigger_neutrality = {
+	authoritarian_democrat > ideology_support_value
+}

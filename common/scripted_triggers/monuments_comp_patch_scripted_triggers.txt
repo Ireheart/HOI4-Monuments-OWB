@@ -1,0 +1,16 @@
+is_literally_china = {
+	OR = {
+		original_tag = SZC
+		original_tag = QIE
+		original_tag = LEP
+		original_tag = SQI
+		original_tag = FNG
+		original_tag = YUN
+		original_tag = SHX
+		original_tag = XSM
+		original_tag = SIK
+		original_tag = CHI
+		original_tag = PRC
+		original_tag = GXC
+	}
+}

@@ -1,0 +1,15 @@
+spriteTypes = {
+	# Monuments:
+	spriteType = {
+		name = "GFX_goodsprings"
+		textureFile = "gfx/interface/monuments/goodsprings.dds"
+	}
+	spriteType = {
+		name = "GFX_yangtze_memorial"
+		textureFile = "gfx/interface/monuments/yangtze_memorial.dds"
+	}
+	spriteType = {
+		name = "GFX_vault3"
+		textureFile = "gfx/interface/monuments/vault3.dds"
+	}
+}

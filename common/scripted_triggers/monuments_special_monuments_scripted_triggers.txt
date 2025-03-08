@@ -1,0 +1,51 @@
+# usage:
+# monument_trigger_germany_won_ww2 = yes
+monument_trigger_germany_won_ww2 = {
+	always = no
+}
+
+# usage:
+# monument_trigger_ussr_won_ww2 = yes
+monument_trigger_ussr_won_ww2 = {
+	OR = {
+		AND = {
+			if = {
+				limit = {
+					NOT = { has_global_flag = monuments_game_rule_no_country_restriction }
+				}
+				NOT = { country_exists = GER }
+				NOT = { country_exists = DDR }
+			}
+			else = {
+				OR = {
+					NOT = { country_exists = GER }
+					tag = GER
+				}
+				OR = {
+					NOT = { country_exists = DDR }
+					tag = DDR
+				}
+			}
+			owns_state = 64
+		}
+		AND = {
+			NOT = { country_exists = DDR }
+			GER = {
+				is_subject_of = PREV
+			}
+		}
+		AND = {
+			NOT = { country_exists = GER }
+			DDR = {
+				is_subject_of = PREV
+			}
+		}
+		AND = {
+			NOT = { country_exists = GER }
+			is_faction_leader = yes
+			DDR = {
+				is_in_faction_with = PREV
+			}
+		}
+	}
+}

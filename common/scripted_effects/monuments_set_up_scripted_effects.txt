@@ -1,0 +1,43 @@
+# usage:
+## set_up_monuments_at_start_effect = yes
+set_up_monuments_at_start_effect = {
+	if = {
+		limit = {
+			has_dlc = "La Resistance"
+		}
+		set_variable = { global.monuments_alert_offset = 0 }
+	}
+	else = {
+		set_variable = { global.monuments_alert_offset = -55 }
+	}
+	552 = {
+		# Goodsprings
+		set_temp_variable = { monument_id = 183 }
+		set_temp_variable = { level = 1 }
+		add_monument_to_state = yes
+	}
+	552 = {
+		# Yangtze Memorial
+		set_temp_variable = { monument_id = 184 }
+		set_temp_variable = { level = 1 }
+		add_monument_to_state = yes
+	}
+	380 = {
+		# Vault 3
+		set_temp_variable = { monument_id = 185 }
+		set_temp_variable = { level = 1 }
+		add_monument_to_state = yes
+	}
+	
+	# Game Rule: Landmark Monuments
+	if = {
+		limit = {
+			has_global_flag = monuments_game_rule_disabled_landmark_monuments
+		}
+		every_state = {
+			# Reichstag
+			set_temp_variable = { monument_id = 15 }
+			remove_monument_from_state = yes
+		}
+	}
+}

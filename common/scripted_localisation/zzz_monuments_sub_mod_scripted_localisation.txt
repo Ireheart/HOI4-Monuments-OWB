@@ -1,0 +1,36 @@
+defined_text = {
+	name = GetMonumentImageBackUp
+
+#	Check for the variable "v" and the specific monument ID to assign a specific image, e.g.:
+#	text = {
+#		trigger = {
+#			check_variable = { v = 1 }
+#		}
+#		localization_key = "GFX_monument_placeholder"
+#	}
+	text = {
+		trigger = {
+			check_variable = { v = 183 }
+		}
+		localization_key = "GFX_goodsprings"
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 184 }
+		}
+		localization_key = "GFX_yangtze_memorial"
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 185 }
+		}
+		localization_key = "GFX_vault3"
+	}
+	# Above of this entry
+	text = {
+		trigger = {
+			always = yes
+		}
+		localization_key = "GFX_monument_placeholder"
+	}
+}

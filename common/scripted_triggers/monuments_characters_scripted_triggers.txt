@@ -1,0 +1,17 @@
+monument_character_trigger_has_country_leader_adolf_hitler = {
+	always = no
+}
+
+monument_character_trigger_country_leader_attaturk_died = {
+	always = no
+}
+
+monument_character_trigger_has_character_heinrich_himmler = {
+	always = no
+}
+
+monument_character_trigger_has_country_leader_wilhelm_ii_or_iii = {
+	hidden_trigger = {
+		always = yes
+	}
+}

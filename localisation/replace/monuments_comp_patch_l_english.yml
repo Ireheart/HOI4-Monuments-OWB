@@ -1,0 +1,17 @@
+﻿l_english:
+ # Modifiers:
+ weekly_communism_drift_in_neighbors_and_subjects: "Weekly £texticon_communism£ §YTotalism§! Support in Subjects and Neighbor Countries"
+
+ fascism_drift: "$national_populist_drift$"
+ communism_drift: "$totalist_drift$"
+ democratic_drift: "$market_liberal_drift$"
+ neutrality_drift: "$authoritarian_democrat_drift$"
+ political_advisor_cost_factor: "$KR_trade_laws_cost_factor$"
+ trade_laws_cost_factor: "$KR_trade_laws_cost_factor$"
+
+ MONUMENT_183_NAME: "Goodsprings"
+ MONUMENT_183_DESC: "The §Y$MONUMENT_183_NAME$§! is a fixture of the Mojave landscape almost as old, if not older than many of its residents, developed as a mining town under the NCR. So named after the Goodsprings source, where the town gets its drinking water"
+ MONUMENT_184_NAME: "Yangtze Memorial"
+ MONUMENT_184_DESC: "When American forces invaded the Chinese mainland during the Sino-American War in 2074, the intense fighting that occurred during the Yangtze Campaign consumed many lives on both sides of the conflict; The §Y$MONUMENT_184_NAME$§! was later erected in the state of Nevada sometime before October 23, 2077 to honor the fallen American troops."
+ MONUMENT_185_NAME: "Vault 3"
+ MONUMENT_185_DESC: "§Y$MONUMENT_185_NAME$§! was one of five vaults constructed by the Vault-Tec Corporation in the broader Mojave region assigned to house a civilian population, along with Vault 11, Vault 19, Vault 21, and Vault 34, as well as one of two vaults constructed in proximity to the Las Vegas Strip, along with Vault 21. Nestled amidst the blocks of South Vegas, Vault 3 was intended as one of the seventeen "control" vaults, so it was not given any parameters for the social experiments that notoriously plagued most other Vaults."
