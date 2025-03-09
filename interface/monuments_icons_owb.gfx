@@ -1,15 +1,247 @@
 spriteTypes = {
 	# Monuments:
+	#Mojave Area
 	spriteType = {
-		name = "GFX_goodsprings"
+		name = "GFX_monument_183"
 		textureFile = "gfx/interface/monuments/goodsprings.dds"
 	}
 	spriteType = {
-		name = "GFX_yangtze_memorial"
+		name = "GFX_monument_183_disabled"
+		textureFile = "gfx/interface/monuments/goodsprings.dds"
+		effectFile = "gfx/FX/monument_disabled_shader.lua"
+	}
+	spriteType = {
+		name = "GFX_monument_184"
 		textureFile = "gfx/interface/monuments/yangtze_memorial.dds"
 	}
 	spriteType = {
-		name = "GFX_vault3"
+		name = "GFX_monument_184_disabled"
+		textureFile = "gfx/interface/monuments/yangtze_memorial.dds"
+		effectFile = "gfx/FX/monument_disabled_shader.lua"
+	}
+	spriteType = {
+		name = "GFX_monument_185"
 		textureFile = "gfx/interface/monuments/vault3.dds"
+	}
+	spriteType = {
+		name = "GFX_monument_185_disabled"
+		textureFile = "gfx/interface/monuments/vault3.dds"
+		effectFile = "gfx/FX/monument_disabled_shader.lua"
+	}
+	spriteType = {
+		name = "GFX_monument_186"
+		textureFile = "gfx/interface/monuments/bittersprings.dds"
+	}
+	spriteType = {
+		name = "GFX_monument_186_disabled"
+		textureFile = "gfx/interface/monuments/bittersprings.dds"
+		effectFile = "gfx/FX/monument_disabled_shader.lua"
+	}
+	spriteType = {
+		name = "GFX_monument_187"
+		textureFile = "gfx/interface/monuments/blackmountain.dds"
+	}
+	spriteType = {
+		name = "GFX_monument_187_disabled"
+		textureFile = "gfx/interface/monuments/blackmountain.dds"
+		effectFile = "gfx/FX/monument_disabled_shader.lua"
+	}
+	spriteType = {
+		name = "GFX_monument_188"
+		textureFile = "gfx/interface/monuments/bouldercitymemorial.dds"
+	}
+	spriteType = {
+		name = "GFX_monument_188_disabled"
+		textureFile = "gfx/interface/monuments/bouldercitymemorial.dds"
+		effectFile = "gfx/FX/monument_disabled_shader.lua"
+	}
+	spriteType = {
+		name = "GFX_monument_189"
+		textureFile = "gfx/interface/monuments/campmccarran.dds"
+	}
+	spriteType = {
+		name = "GFX_monument_189_disabled"
+		textureFile = "gfx/interface/monuments/campmccarran.dds"
+		effectFile = "gfx/FX/monument_disabled_shader.lua"
+	}
+	spriteType = {
+		name = "GFX_monument_190"
+		textureFile = "gfx/interface/monuments/campsearchlight.dds"
+	}
+	spriteType = {
+		name = "GFX_monument_190_disabled"
+		textureFile = "gfx/interface/monuments/campsearchlight.dds"
+		effectFile = "gfx/FX/monument_disabled_shader.lua"
+	}
+	spriteType = {
+		name = "GFX_monument_191"
+		textureFile = "gfx/interface/monuments/cottonwoodcove.dds"
+	}
+	spriteType = {
+		name = "GFX_monument_191_disabled"
+		textureFile = "gfx/interface/monuments/cottonwoodcove.dds"
+		effectFile = "gfx/FX/monument_disabled_shader.lua"
+	}
+	spriteType = {
+		name = "GFX_monument_192"
+		textureFile = "gfx/interface/monuments/heliosone.dds"
+	}
+	spriteType = {
+		name = "GFX_monument_192_disabled"
+		textureFile = "gfx/interface/monuments/heliosone.dds"
+		effectFile = "gfx/FX/monument_disabled_shader.lua"
+	}
+	spriteType = {
+		name = "GFX_monument_193"
+		textureFile = "gfx/interface/monuments/hiddenvalleybunker.dds"
+	}
+	spriteType = {
+		name = "GFX_monument_193_disabled"
+		textureFile = "gfx/interface/monuments/hiddenvalleybunker.dds"
+		effectFile = "gfx/FX/monument_disabled_shader.lua"
+	}
+	spriteType = {
+		name = "GFX_monument_194"
+		textureFile = "gfx/interface/monuments/hooverdam.dds"
+	}
+	spriteType = {
+		name = "GFX_monument_194_disabled"
+		textureFile = "gfx/interface/monuments/hooverdam.dds"
+		effectFile = "gfx/FX/monument_disabled_shader.lua"
+	}
+	spriteType = {
+		name = "GFX_monument_195"
+		textureFile = "gfx/interface/monuments/jacobstown.dds"
+	}
+	spriteType = {
+		name = "GFX_monument_195_disabled"
+		textureFile = "gfx/interface/monuments/jacobstown.dds"
+		effectFile = "gfx/FX/monument_disabled_shader.lua"
+	}
+	spriteType = {
+		name = "GFX_monument_196"
+		textureFile = "gfx/interface/monuments/mojaveoutpost.dds"
+	}
+	spriteType = {
+		name = "GFX_monument_196_disabled"
+		textureFile = "gfx/interface/monuments/mojaveoutpost.dds"
+		effectFile = "gfx/FX/monument_disabled_shader.lua"
+	}
+	spriteType = {
+		name = "GFX_monument_197"
+		textureFile = "gfx/interface/monuments/ncrcf.dds"
+	}
+	spriteType = {
+		name = "GFX_monument_197_disabled"
+		textureFile = "gfx/interface/monuments/ncrcf.dds"
+		effectFile = "gfx/FX/monument_disabled_shader.lua"
+	}
+	spriteType = {
+		name = "GFX_monument_198"
+		textureFile = "gfx/interface/monuments/nelson.dds"
+	}
+	spriteType = {
+		name = "GFX_monument_198_disabled"
+		textureFile = "gfx/interface/monuments/nelson.dds"
+		effectFile = "gfx/FX/monument_disabled_shader.lua"
+	}
+	spriteType = {
+		name = "GFX_monument_199"
+		textureFile = "gfx/interface/monuments/nipton.dds"
+	}
+	spriteType = {
+		name = "GFX_monument_199_disabled"
+		textureFile = "gfx/interface/monuments/nipton.dds"
+		effectFile = "gfx/FX/monument_disabled_shader.lua"
+	}
+	spriteType = {
+		name = "GFX_monument_200"
+		textureFile = "gfx/interface/monuments/novac.dds"
+	}
+	spriteType = {
+		name = "GFX_monument_200_disabled"
+		textureFile = "gfx/interface/monuments/novac.dds"
+		effectFile = "gfx/FX/monument_disabled_shader.lua"
+	}
+	spriteType = {
+		name = "GFX_monument_201"
+		textureFile = "gfx/interface/monuments/primm.dds"
+	}
+	spriteType = {
+		name = "GFX_monument_201_disabled"
+		textureFile = "gfx/interface/monuments/primm.dds"
+		effectFile = "gfx/FX/monument_disabled_shader.lua"
+	}
+	spriteType = {
+		name = "GFX_monument_202"
+		textureFile = "gfx/interface/monuments/quarryjunction.dds"
+	}
+	spriteType = {
+		name = "GFX_monument_202_disabled"
+		textureFile = "gfx/interface/monuments/quarryjunction.dds"
+		effectFile = "gfx/FX/monument_disabled_shader.lua"
+	}
+	spriteType = {
+		name = "GFX_monument_203"
+		textureFile = "gfx/interface/monuments/rangerstationecho.dds"
+	}
+	spriteType = {
+		name = "GFX_monument_203_disabled"
+		textureFile = "gfx/interface/monuments/rangerstationecho.dds"
+		effectFile = "gfx/FX/monument_disabled_shader.lua"
+	}
+	spriteType = {
+		name = "GFX_monument_204"
+		textureFile = "gfx/interface/monuments/repconnhq.dds"
+	}
+	spriteType = {
+		name = "GFX_monument_204_disabled"
+		textureFile = "gfx/interface/monuments/repconnhq.dds"
+		effectFile = "gfx/FX/monument_disabled_shader.lua"
+	}
+	spriteType = {
+		name = "GFX_monument_205"
+		textureFile = "gfx/interface/monuments/repconnts.dds"
+	}
+	spriteType = {
+		name = "GFX_monument_205_disabled"
+		textureFile = "gfx/interface/monuments/repconnts.dds"
+		effectFile = "gfx/FX/monument_disabled_shader.lua"
+	}
+	spriteType = {
+		name = "GFX_monument_206"
+		textureFile = "gfx/interface/monuments/searchlightairport.dds"
+	}
+	spriteType = {
+		name = "GFX_monument_206_disabled"
+		textureFile = "gfx/interface/monuments/searchlightairport.dds"
+		effectFile = "gfx/FX/monument_disabled_shader.lua"
+	}
+	spriteType = {
+		name = "GFX_monument_207"
+		textureFile = "gfx/interface/monuments/searchlightgoldmine.dds"
+	}
+	spriteType = {
+		name = "GFX_monument_207_disabled"
+		textureFile = "gfx/interface/monuments/searchlightgoldmine.dds"
+		effectFile = "gfx/FX/monument_disabled_shader.lua"
+	}
+	spriteType = {
+		name = "GFX_monument_208"
+		textureFile = "gfx/interface/monuments/vault11.dds"
+	}
+	spriteType = {
+		name = "GFX_monument_208_disabled"
+		textureFile = "gfx/interface/monuments/vault11.dds"
+		effectFile = "gfx/FX/monument_disabled_shader.lua"
+	}
+	spriteType = {
+		name = "GFX_monument_209"
+		textureFile = "gfx/interface/monuments/vault19.dds"
+	}
+	spriteType = {
+		name = "GFX_monument_209_disabled"
+		textureFile = "gfx/interface/monuments/vault19.dds"
+		effectFile = "gfx/FX/monument_disabled_shader.lua"
 	}
 }

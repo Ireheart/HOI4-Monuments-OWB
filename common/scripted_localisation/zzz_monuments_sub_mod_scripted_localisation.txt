@@ -12,19 +12,187 @@ defined_text = {
 		trigger = {
 			check_variable = { v = 183 }
 		}
-		localization_key = "GFX_goodsprings"
+		localization_key = "GFX_monument_183"
 	}
 	text = {
 		trigger = {
 			check_variable = { v = 184 }
 		}
-		localization_key = "GFX_yangtze_memorial"
+		localization_key = "GFX_monument_184"
 	}
 	text = {
 		trigger = {
 			check_variable = { v = 185 }
 		}
-		localization_key = "GFX_vault3"
+		localization_key = "GFX_monument_185"
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 186 }
+		}
+		localization_key = "GFX_monument_186"
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 187 }
+		}
+		localization_key = "GFX_monument_187"
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 188 }
+		}
+		localization_key = "GFX_monument_188"
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 189 }
+		}
+		localization_key = "GFX_monument_189"
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 190 }
+		}
+		localization_key = "GFX_monument_190"
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 191 }
+		}
+		localization_key = "GFX_monument_191"
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 192 }
+		}
+		localization_key = "GFX_monument_192"
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 193 }
+		}
+		localization_key = "GFX_monument_193"
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 194 }
+		}
+		localization_key = "GFX_monument_194"
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 195 }
+		}
+		localization_key = "GFX_monument_195"
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 196 }
+		}
+		localization_key = "GFX_monument_196"
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 197 }
+		}
+		localization_key = "GFX_monument_197"
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 198 }
+		}
+		localization_key = "GFX_monument_198"
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 199 }
+		}
+		localization_key = "GFX_monument_199"
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 200 }
+		}
+		localization_key = "GFX_monument_200"
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 201 }
+		}
+		localization_key = "GFX_monument_201"
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 202 }
+		}
+		localization_key = "GFX_monument_202"
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 203 }
+		}
+		localization_key = "GFX_monument_203"
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 204 }
+		}
+		localization_key = "GFX_monument_204"
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 205 }
+		}
+		localization_key = "GFX_monument_205"
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 206 }
+		}
+		localization_key = "GFX_monument_206"
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 207 }
+		}
+		localization_key = "GFX_monument_207"
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 208 }
+		}
+		localization_key = "GFX_monument_208"
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 209 }
+		}
+		localization_key = "GFX_monument_209"
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 210 }
+		}
+		localization_key = "GFX_monument_210"
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 211 }
+		}
+		localization_key = "GFX_monument_211"
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 212 }
+		}
+		localization_key = "GFX_monument_212"
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 213 }
+		}
+		localization_key = "GFX_monument_213"
 	}
 	# Above of this entry
 	text = {

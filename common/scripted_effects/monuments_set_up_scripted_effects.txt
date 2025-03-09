@@ -10,6 +10,7 @@ set_up_monuments_at_start_effect = {
 	else = {
 		set_variable = { global.monuments_alert_offset = -55 }
 	}
+	#Mojave Area
 	552 = {
 		# Goodsprings
 		set_temp_variable = { monument_id = 183 }
@@ -25,6 +26,155 @@ set_up_monuments_at_start_effect = {
 	380 = {
 		# Vault 3
 		set_temp_variable = { monument_id = 185 }
+		set_temp_variable = { level = 0 }
+		add_monument_to_state = yes
+	}
+	106 = {
+		# Bitter Springs
+		set_temp_variable = { monument_id = 186 }
+		set_temp_variable = { level = 1 }
+		add_monument_to_state = yes
+	}
+	573 = {
+		# Black Mountain
+		set_temp_variable = { monument_id = 187 }
+		set_temp_variable = { level = 1 }
+		add_monument_to_state = yes
+	}
+	613 = {
+		# Boulder City Memorial
+		set_temp_variable = { monument_id = 188 }
+		set_temp_variable = { level = 0 }
+		add_monument_to_state = yes
+	}
+	613 = {
+		# Camp McCarren
+		set_temp_variable = { monument_id = 189 }
+		set_temp_variable = { level = 1 }
+		add_monument_to_state = yes
+	}
+	67 = {
+		# Camp Searchlight
+		set_temp_variable = { monument_id = 190 }
+		set_temp_variable = { level = 1 }
+		add_monument_to_state = yes
+	}
+	67 = {
+		# Cottonwood Cove
+		set_temp_variable = { monument_id = 191 }
+		set_temp_variable = { level = 1 }
+		add_monument_to_state = yes
+	}
+	417 = {
+		# Helios One
+		set_temp_variable = { monument_id = 192 }
+		set_temp_variable = { level = 1 }
+		add_monument_to_state = yes
+	}
+	46 = {
+		# Hidden Valley Bunker
+		set_temp_variable = { monument_id = 193 }
+		set_temp_variable = { level = 1 }
+		add_monument_to_state = yes
+	}
+	252 = {
+		# Hoover Dam
+		set_temp_variable = { monument_id = 194 }
+		set_temp_variable = { level = 1 }
+		add_monument_to_state = yes
+	}
+	77 = {
+		# Mojave Outpost
+		set_temp_variable = { monument_id = 196 }
+		set_temp_variable = { level = 1 }
+		add_monument_to_state = yes
+	}
+	47 = {
+		# ncrcf
+		set_temp_variable = { monument_id = 197 }
+		set_temp_variable = { level = 1 }
+		add_monument_to_state = yes
+	}
+	137 = {
+		# Nelson
+		set_temp_variable = { monument_id = 198 }
+		set_temp_variable = { level = 1 }
+		add_monument_to_state = yes
+	}
+	47 = {
+		# Nipton
+		set_temp_variable = { monument_id = 199 }
+		set_temp_variable = { level = 1 }
+		add_monument_to_state = yes
+	}
+	137 = {
+		# Novac
+		set_temp_variable = { monument_id = 200 }
+		set_temp_variable = { level = 1 }
+		add_monument_to_state = yes
+	}
+	47 = {
+		# Primm
+		set_temp_variable = { monument_id = 201 }
+		set_temp_variable = { level = 1 }
+		add_monument_to_state = yes
+	}
+	573 = {
+		# Quarry Junction ( Not used by ncr until later )
+		set_temp_variable = { monument_id = 202 }
+		set_temp_variable = { level = 0 }
+		add_monument_to_state = yes
+	}
+	
+	137 = {
+		# Ranger Station Echo
+		set_temp_variable = { monument_id = 203 }
+		set_temp_variable = { level = 1 }
+		add_monument_to_state = yes
+	}
+	
+	613 = {
+		# Repconn HQ
+		set_temp_variable = { monument_id = 204 }
+		set_temp_variable = { level = 0 }
+		add_monument_to_state = yes
+	}
+	
+	67 = {
+		# Repconn Test Site
+		set_temp_variable = { monument_id = 205 }
+		set_temp_variable = { level = 0 }
+		add_monument_to_state = yes
+	}
+	67 = {
+		# Searchlight Airport
+		set_temp_variable = { monument_id = 206 }
+		set_temp_variable = { level = 0 }
+		add_monument_to_state = yes
+	}
+	67 = {
+		# Searchlight East Goldmine
+		set_temp_variable = { monument_id = 207 }
+		set_temp_variable = { level = 0 }
+		add_monument_to_state = yes
+	}
+	613 = {
+		# Vault 11
+		set_temp_variable = { monument_id = 208 }
+		set_temp_variable = { level = 0 }
+		add_monument_to_state = yes
+	}
+	380 = {
+		# Vault 19
+		set_temp_variable = { monument_id = 209 }
+		set_temp_variable = { level = 0 }
+		add_monument_to_state = yes
+	}
+	
+	# New Vegas Area
+	313 = {
+		# Jacobs Town
+		set_temp_variable = { monument_id = 195 }
 		set_temp_variable = { level = 1 }
 		add_monument_to_state = yes
 	}
